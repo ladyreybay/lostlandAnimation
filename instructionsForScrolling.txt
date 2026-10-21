@@ -1,0 +1,2 @@
+The default scroll method has been changed to support the ability to scroll sideways without needing to hold down shift to do so.
+It is advised to either use a mouse to scroll or to use the scrollbar at the bottom of the screen to scroll the site.

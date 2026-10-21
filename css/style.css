@@ -1,0 +1,137 @@
+html{
+    background-color: #03d5ff;
+}
+
+body{
+    overflow-y: hidden;
+    padding: 0;
+}
+#cloudsStuff{
+    height: 65%;
+    margin-top: 8%;
+}
+#textIntro{
+    height: 50%;
+    margin-top: 10%;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.toVeryFront{
+    z-index: 50;
+}
+
+.toBack{
+    z-index: 10;
+}
+
+.toVeryBack{
+    z-index: 5;
+}
+
+#cloudsSlow{
+    top: 5%;
+    animation: cloudsAnimation 15s ease-in-out 0s infinite alternate;
+}
+
+#cloudsFast{
+    margin-left: 45%;
+    animation: cloudsAnimation 13s ease-in-out 3.5s infinite alternate;
+}
+
+@keyframes cloudsAnimation{
+    0%{left:0%;}
+    100%{left:100%;}
+}
+
+#lostland{
+    animation: islandFloat 5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes islandFloat{
+    0%{top:0%;}
+    100%{top:50%}
+}
+
+#roomImgs{
+    margin-left: 165%;
+}
+#phoneAlarm{
+    margin-left: 118.5%;
+}
+#phoneAlarm.regular:hover{
+    cursor: default;
+}
+#phoneAlarm.regular{
+    z-index: 50;
+}
+#phoneAlarm:hover{
+    cursor: pointer;
+}
+#phoneAlarmText{
+    margin-left: 62%;
+}
+
+#cursorFollow{
+    position: absolute;
+}
+
+#notFinal{
+    opacity: 0.4;
+}
+
+#roomToBathImgs{
+    margin-left: 470%;
+}
+
+#bathImgs{
+    margin-left: 673%;
+}
+
+#bathClickBreakImg{
+    margin-left: 842%;
+}
+#bathClickBreakImg img:hover{
+    cursor: pointer;
+}
+
+#confrontImgs{
+    margin-left: 842%;
+}
+
+#breakTypo{
+    z-index: 50;
+    /*animation: breakTypoAnimation 1.5s ease-in;*/
+}
+
+@keyframes breakTypoAnimation{
+    0%{z-index: 50; left:0%;}
+    100%{z-index: 50;left:10%;}
+}
+
+#lostlandSign{
+    margin-left: 247%;
+}
+#lostlandIslandBack{
+    height: 35%;
+    margin-left: 260%;
+    animation: islandAnimation 4s ease-in-out 0s infinite alternate;
+}
+
+@keyframes islandAnimation{
+    0%{top:0px;}
+    50%{top:20px;}
+    100%{top:0px;}
+}
+
+#exitImgs{
+    margin-left: 1112%;
+}
+
+#finalFreedomImgs{
+    margin-left: 1417%;
+}
